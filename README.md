@@ -22,7 +22,7 @@ My GSoC project aims to supplement the testing of the `CubicProTransform`  metho
 
 My work this summer can be divided into two main areas: 
 
-### 2.1.  `CubicProTransform` Promolecular Grid Integration and Analysis
+### 2.1.  `CubicProTransform` Grid Integration and Analysis
 
 - **BFit Data Processor**: I created the `BFitDataProcessor` class in `utils_promol.py`. This utility parses standard `.npz` files containing promolecular coefficients and exponents (BFit data), making the grid compatible with established quantum chemistry data sources.
 - **Performance test suite**: I wrote a comprehensive test script, `test_CubicProTransform.py`, to compare the integration accuracy and performance of `UniformGrid` versus `CubicProTransform`. This test was run on a series of small molecules (He, H₂, HCl, CH₄, H₂O), demonstrating the clear advantage of the promolecular approach in achieving higher accuracy with fewer points.
