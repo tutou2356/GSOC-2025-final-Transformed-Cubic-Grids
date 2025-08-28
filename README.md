@@ -4,7 +4,6 @@
 - **Mentors:** Ali Tehrani, Farnaz Heidar-Zadeh, Marco Martínez-González
 - **Organization:** QC Devs
 - **Project:** Transformed Cubic Grids
-- **Project Repository:** https://github.com/theochem/grid
 
 ## 1. Project Background
 
